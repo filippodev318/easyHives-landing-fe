@@ -1,0 +1,86 @@
+@media screen and (min-width: 550px) {
+    .easyhives__thirdSection {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .easyhives__thirdSection-content {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .easyhives__thirdSection-input button {
+        display: none;
+    }
+
+    .easyhives__thirdSection-descr h2 {
+        font-weight: 700;
+        font-size: 44px;
+    }
+
+    .easyhives__thirdSection-screen img {
+        width: 360px;
+        height: 740px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .easyhives__thirdSection {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .easyhives__thirdSection-content {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .easyhives__thirdSection-descr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .easyhives__thirdSection-descr button {
+        display: none;
+    }
+
+    .easyhives__thirdSection-descr h2 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .easyhives__thirdSection-screen img {
+        width: 300px;
+        height: 640px;
+    }
+}
+
+.easyhives__thirdSection-descr {
+    margin-left: 1rem;
+}
+
+
+.easyhives__thirdSection-descr button,
+.easyhives__thirdSection-input button {
+    background: linear-gradient(180deg, #F5C81A 0%, #F5AB1A 100%);
+    border-radius: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    border: none;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}

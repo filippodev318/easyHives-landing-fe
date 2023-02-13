@@ -1,0 +1,33 @@
+.easyhives__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.easyhives__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.easyhives__navbar-links-app-name {
+    margin-right: 2rem;
+}
+
+.easyhives__navbar-links-os-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.easyhives__navbar-links-os-logo img {
+    width: 26px;
+    height: 34px;
+}
+
+.easyhives__navbar-links-os-logo-android {
+    margin-left: 2rem;
+}

@@ -1,0 +1,11 @@
+.easyhives__spacer-container {
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.easyhives__spacer {
+    border: 2px solid #EFBE01;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
