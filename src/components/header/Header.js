@@ -1,6 +1,6 @@
 import './header.css';
 
-const Header = () => {
+const Header = ({ handleButtonClick }) => {
     return (
         <div className="easyhives__header section__padding">
             <div className="easyhives__header-content">
@@ -9,7 +9,7 @@ const Header = () => {
                 <p>Con EasyHives monitori e gestici il tuo apiario in modo semplice e veloce.</p>
 
                 <div className="easyhives__header-content-input">
-                    <button type='button'>Provala per primo</button>
+                    <button onClick={handleButtonClick} type='button'>Provala per primo</button>
                 </div>
             </div>
         </div>

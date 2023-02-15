@@ -1,0 +1,35 @@
+.easyHives__modal {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    background: #FFFFFF;
+    border: 1.21739px solid #F5C81A;
+    box-shadow: 0px 6.08696px 24.3478px rgba(0, 0, 0, 0.4);
+    border-radius: 18.2609px;
+}
+
+.easyHives__modal-content-header-close button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0.5rem 1rem;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.easyHives__modal-content-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.easyHives__modal-content-header p {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.easyHives__modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

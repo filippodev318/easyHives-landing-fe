@@ -1,0 +1,30 @@
+.easyHives__form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.easyHives__form-input input,
+select {
+    border: 0.64px solid #3E3E3E;
+    border-radius: 44px;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.easyHives__form-input button {
+    background: linear-gradient(180deg, #F5C81A 0%, #F5AB1A 100%);
+    border-radius: 28px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.easyHives__form-input-privacy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}

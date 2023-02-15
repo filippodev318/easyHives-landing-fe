@@ -17,6 +17,10 @@
         box-sizing: border-box;
     }
 
+    .easyhives__secondSection-content-screen2 img {
+        margin-top: 1.2rem;
+    }
+
     .easyhives__secondSection-content-screen1 img,
     .easyhives__secondSection-content-screen2 img,
     .easyhives__secondSection-content-screen3 img {
