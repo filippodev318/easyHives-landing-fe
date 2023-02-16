@@ -7,8 +7,8 @@ const SecondSection = () => {
     return (
         <div className='easyhives__secondSection section__padding'>
             <div className='easyhives__secondSection-header'>
-                <h2 className='text__light'>Puoi dire addio
-                    <span className='text__dark'> a carta e penna</span></h2>
+                <h2 className='text__dark'>Puoi dire <span className='text__light'> addio </span>
+                    a carta e penna</h2>
             </div>
             <div className='easyhives__secondSection-content'>
                 <div className='easyhives__secondSection-content-screen1'>

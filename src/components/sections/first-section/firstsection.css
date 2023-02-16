@@ -18,14 +18,18 @@
         display: none;
     }
 
+    .easyhives__firstSection-descr {
+        margin-right: 2rem;
+    }
+
     .easyhives__firstSection-descr h2 {
         font-weight: 700;
-        font-size: 44px;
+        font-size: 40px;
     }
 
     .easyhives__firstSection-screen img {
-        width: 360px;
-        height: 740px;
+        width: 340px;
+        height: 650px;
     }
 }
 
@@ -50,10 +54,6 @@
         flex-direction: column;
     }
 
-    .easyhives__firstSection-descr button {
-        display: none;
-    }
-
     .easyhives__firstSection-descr h2 {
         font-weight: 700;
         font-size: 32px;
@@ -67,6 +67,7 @@
 
 .easyhives__firstSection-descr {
     margin-left: 1rem;
+    max-width: min-content;
 }
 
 
