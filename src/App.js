@@ -12,29 +12,17 @@ import { useState } from 'react';
 function App() {
 
   const [show, setShow] = useState(false)
-  const [email, setEmail] = useState('')
-  const [hives, setHives] = useState(0)
-
-  const handleEmailChange = (event) => {
-    setEmail(event.target.value)
-  }
-
-  const handleChangeHive = (event) => {
-    setHives(event.target.value)
-  }
 
   const handleButtonClick = () => {
     setShow(true)
   }
 
-  const handleSubmit = (event) => {
-    console.log('submit', event)
-    event.preventDefault()
+  const submitData = (data) => {
+    console.log('submitAppdata', data)
+    setShow(false)
   }
 
   const handleClose = () => {
-    setEmail('')
-    setHives(0)
     setShow(false)
   }
 
@@ -45,12 +33,9 @@ function App() {
         <Navbar />
       </div>
       <ModalSubscribe show={show}
-        handleSubmit={handleSubmit}
         handleClose={handleClose}
-        email={email}
-        handleEmailChange={handleEmailChange}
-        hives={hives}
-        handleChangeHive={handleChangeHive} />
+        submitData={submitData}
+      />
       <Header handleButtonClick={handleButtonClick} />
       <Spacer />
       <FirstSection handleButtonClick={handleButtonClick} />

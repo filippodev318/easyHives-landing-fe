@@ -3,6 +3,16 @@
     flex-direction: column;
 }
 
+.easyHives__form-input-error {
+    color: #f02536;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.error{
+    color: #f02536;
+}
+
 .easyHives__form-input input,
 select {
     border: 0.64px solid #3E3E3E;

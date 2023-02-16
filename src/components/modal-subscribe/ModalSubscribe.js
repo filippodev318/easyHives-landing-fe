@@ -1,12 +1,13 @@
-import { useState } from 'react';
 import Form from '../form/Form';
 import './modalsubscribe.css';
 
-const ModalSubscribe = ({ show, handleSubmit, handleClose, email, hives, handleEmailChange, handleChangeHive }) => {
-
+const ModalSubscribe = ({
+    show, submitData, handleClose
+}) => {
     if (!show) {
         return null
     }
+
     return (
         <div className='easyHives__modal'>
             <div className='easyHives__modal-content'>
@@ -19,15 +20,15 @@ const ModalSubscribe = ({ show, handleSubmit, handleClose, email, hives, handleE
                     <p>sii tra i primi a provare l'app questa estate!</p>
                 </div>
                 <div className='easyHives__modal-content-body'>
-                    <Form handleSubmit={handleSubmit}
-                        email={email}
-                        hives={hives} handleEmailChange={handleEmailChange}
-                        handleChangeHive={handleChangeHive} />
+                    <Form submitData={submitData}
+                    />
                 </div>
                 <div className='easyHives__modal-content-footer'></div>
             </div>
         </div>
     )
+
+
 }
 
 export default ModalSubscribe
