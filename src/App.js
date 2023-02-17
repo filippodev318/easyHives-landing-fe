@@ -8,6 +8,7 @@ import ThirdSection from './components/sections/third-section/ThirdSection';
 import Footer from './components/footer/Footer';
 import ModalSubscribe from './components/modal-subscribe/ModalSubscribe';
 import { useState } from 'react';
+import './assets/font/Recoleta-RegularDEMO.otf';
 
 function App() {
 

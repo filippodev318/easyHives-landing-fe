@@ -15,6 +15,7 @@
     font-weight: 700;
     font-size: 46px;
     text-align: center;
+
 }
 
 .easyhives__footer-content p {
@@ -29,7 +30,6 @@
 .easyhives__footer-content-input button {
     background: linear-gradient(180deg, #FFFFFF 0%, #E4E4E4 100%);
     border-radius: 45px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -37,4 +37,16 @@
     border: none;
     color: #3E3E3E;
     padding: 0.5rem 1rem;
+}
+
+@media screen and (min-width: 550px) {
+    .easyhives__footer-content h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .easyhives__footer-content h1 {
+        font-size: 28px;
+    }
 }

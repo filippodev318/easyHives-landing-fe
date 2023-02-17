@@ -29,3 +29,12 @@
     margin: 4rem 2rem;
   }
 }
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("./assets/font/Recoleta-RegularDEMO.otf") format("otf");
+}
+
+.font-custom {
+  font-family: "Recoleta";
+}
