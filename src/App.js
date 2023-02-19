@@ -12,17 +12,19 @@ import { ref, set, push, onChildAdded } from "firebase/database";
 import { db } from './services/db';
 import { isIOS, isMobile } from 'react-device-detect';
 import DownloadInfo from './components/downloadInfo/DownloadInfo';
+import ModalSuccess from './components/modal-success/ModalSuccess';
 
 function App() {
 
-  const [show, setShow] = useState(false)
+  const [showModalSub, setShowModalSub] = useState(false)
+  const [showModalSuccess, setShowModalSuccess] = useState(false)
 
   const getUserAgent = () => {
     return isMobile ? (isIOS ? 'iOS' : 'Android') : 'PC'
   }
 
   const handleButtonClick = () => {
-    setShow(true)
+    setShowModalSub(true)
   }
 
   const submitData = (data) => {
@@ -36,12 +38,17 @@ function App() {
     })
     onChildAdded(newRegister, (data) => {
       console.log('ADDED', data)
-      setShow(false)
+      setShowModalSub(false)
+      setShowModalSuccess(true)
     });
   }
 
-  const handleClose = () => {
-    setShow(false)
+  const handleCloseModalSub = () => {
+    setShowModalSub(false)
+  }
+
+  const handlecloseModalSuccess = () => {
+    setShowModalSuccess(false)
   }
 
   return (
@@ -49,9 +56,12 @@ function App() {
       <div className="easyhives__bg navbar__border">
         <Navbar />
       </div>
-      <ModalSubscribe show={show}
-        handleClose={handleClose}
+      <ModalSubscribe show={showModalSub}
+        handleClose={handleCloseModalSub}
         submitData={submitData}
+      />
+      <ModalSuccess show={showModalSuccess}
+        handleClose={handlecloseModalSuccess}
       />
       <Header handleButtonClick={handleButtonClick} />
       <Spacer />

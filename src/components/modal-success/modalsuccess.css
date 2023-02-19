@@ -1,0 +1,41 @@
+.easyHives__modal {
+    position: fixed;
+    top: 5%;
+    left: 20%;
+    right: 20%;
+    background: #FFFFFF;
+    border: 1.21739px solid #F5C81A;
+    box-shadow: 0px 6.08696px 24.3478px rgba(0, 0, 0, 0.4);
+    border-radius: 18.2609px;
+}
+
+.easyHives__modal-content-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.easyHives__modal-content-header p {
+    margin: 0 1rem 1rem 1rem;
+}
+
+.easyHives__modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.easyHives__modal-content-footer button {
+    background: linear-gradient(180deg, #F5C81A 0%, #F5AB1A 100%);
+    border-radius: 45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    border: none;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
