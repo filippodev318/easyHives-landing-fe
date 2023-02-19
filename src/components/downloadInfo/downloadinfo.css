@@ -1,0 +1,16 @@
+.easyHives__downloadInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.easyHives__downloadInfo img {
+    width: 14px;
+    height: 18px;
+    margin-left: 0.5rem;
+}
+
+.easyHives__downloadInfo span {
+    margin-left: 0.5rem;
+}

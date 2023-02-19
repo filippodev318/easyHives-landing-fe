@@ -11,6 +11,7 @@ import { useState } from 'react';
 import { ref, set, push, onChildAdded } from "firebase/database";
 import { db } from './services/db';
 import { isIOS, isMobile } from 'react-device-detect';
+import DownloadInfo from './components/downloadInfo/DownloadInfo';
 
 function App() {
 
@@ -62,6 +63,7 @@ function App() {
       <div className="easyhives__bg footer__border">
         <Footer handleButtonClick={handleButtonClick} />
       </div>
+      <DownloadInfo />
     </div>
   );
 }
