@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="easyhives__navbar">
             <div className="easyhives__navbar-links">
                 <div className="easyhives__navbar-links-app-name">
-                    <h1 className="text__dark font-custom">EasyHives</h1>
+                    <h1 className="text__dark font-Recoleta">EasyHives</h1>
                 </div>
                 <div className="easyhives__navbar-links-os-logo">
                     <img src={apple} alt=""></img>

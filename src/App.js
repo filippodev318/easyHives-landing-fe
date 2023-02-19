@@ -8,7 +8,6 @@ import ThirdSection from './components/sections/third-section/ThirdSection';
 import Footer from './components/footer/Footer';
 import ModalSubscribe from './components/modal-subscribe/ModalSubscribe';
 import { useState } from 'react';
-import './assets/font/Recoleta-RegularDEMO.otf';
 import { ref, set, push, onChildAdded } from "firebase/database";
 import { db } from './services/db';
 import { isIOS, isMobile } from 'react-device-detect';
@@ -61,7 +60,7 @@ function App() {
       <Spacer />
       <ThirdSection handleButtonClick={handleButtonClick} />
       <div className="easyhives__bg footer__border">
-        <Footer />
+        <Footer handleButtonClick={handleButtonClick} />
       </div>
     </div>
   );

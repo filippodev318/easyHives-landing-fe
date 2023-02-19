@@ -8,7 +8,7 @@ const Form = ({ submitData }) => {
         handleSubmit,
         formState: { errors },
     } = useForm();
-    const onSubmit = (data) => submitData(data)
+    const onSubmit = (data) => { submitData(data) }
     return (
         <div>
             <form onSubmit={handleSubmit(onSubmit)}>
@@ -25,12 +25,16 @@ const Form = ({ submitData }) => {
                         {errors.email?.type === "pattern" &&
                             "Il formato dell'email non è valido"}
                     </div>
-                    <select {...register("hives")}>
-                        <option value="0">0-25 alveari</option>
-                        <option value="1">26-50 alveari</option>
-                        <option value="2">50+ alveari</option>
+                    <select {...register("hives", { min: 1 })} defaultValue={0}>
+                        <option value="0" disabled>Quanti alveari hai?*</option>
+                        <option value="1">0-25 alveari</option>
+                        <option value="2">26-50 alveari</option>
+                        <option value="3">50+ alveari</option>
                     </select>
-                    <button type='submit'>Invia</button>
+                    <div className='easyHives__form-input-error'>
+                        {errors.hives?.type === "min" && 'Campo obbligatorio'}
+                    </div>
+                    <button className='font-Inter' type='submit'>Invia</button>
                     <div className='easyHives__form-input-privacy'>
                         <input type="checkbox" {...register("privacy", { required: true })} />
                         <label className={`${errors.privacy?.type === "required" ? 'error' : ''}`}>

@@ -27,8 +27,11 @@ select {
 .easyHives__form-input button {
     background: linear-gradient(180deg, #F5C81A 0%, #F5AB1A 100%);
     border-radius: 28px;
-    margin: 2rem;
+    margin: 1rem;
     padding: 1rem;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
 }
 
 .easyHives__form-input-privacy {
@@ -37,6 +40,12 @@ select {
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
+}
+
+.label-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 550px) {

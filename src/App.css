@@ -31,10 +31,19 @@
 }
 
 @font-face {
-  font-family: "Recoleta";
-  src: url("./assets/font/Recoleta-RegularDEMO.otf") format("otf");
+  font-family: "RecoletaMedium";
+  src: url("./assets/font/Recoleta-Medium.ttf") format("truetype");
 }
 
-.font-custom {
-  font-family: "Recoleta";
+@font-face {
+  font-family: "InterMedium";
+  src: url("./assets/font/Inter-Medium.ttf") format("truetype");
+}
+
+.font-Recoleta {
+  font-family: "RecoletaMedium";
+}
+
+.font-Inter {
+  font-family: 'InterMedium';
 }
