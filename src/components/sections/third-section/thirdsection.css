@@ -40,6 +40,11 @@
         width: 380px;
         height: 650px;
     }
+
+    .easyhives__thirdSection-descr {
+        margin-left: 1rem;
+        max-width: min-content;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -81,12 +86,6 @@
         height: 500px;
     }
 }
-
-.easyhives__thirdSection-descr {
-    margin-left: 1rem;
-    max-width: min-content;
-}
-
 
 .easyhives__thirdSection-descr button,
 .easyhives__thirdSection-input button {
