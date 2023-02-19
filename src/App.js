@@ -9,24 +9,40 @@ import Footer from './components/footer/Footer';
 import ModalSubscribe from './components/modal-subscribe/ModalSubscribe';
 import { useState } from 'react';
 import './assets/font/Recoleta-RegularDEMO.otf';
+import { ref, set, push, onChildAdded } from "firebase/database";
+import { db } from './services/db';
+import { isIOS, isMobile } from 'react-device-detect';
 
 function App() {
 
   const [show, setShow] = useState(false)
+
+  const getUserAgent = () => {
+    return isMobile ? (isIOS ? 'iOS' : 'Android') : 'PC'
+  }
 
   const handleButtonClick = () => {
     setShow(true)
   }
 
   const submitData = (data) => {
-    console.log('submitAppdata', data)
-    setShow(false)
+    const userAgent = getUserAgent()
+    const subscribeRef = ref(db, 'subscribers');
+    const newRegister = push(subscribeRef);
+    set(newRegister, {
+      email: data.email,
+      userAgent: userAgent,
+      numHives: data.hives
+    })
+    onChildAdded(newRegister, (data) => {
+      console.log('ADDED', data)
+      setShow(false)
+    });
   }
 
   const handleClose = () => {
     setShow(false)
   }
-
 
   return (
     <div className="App">
