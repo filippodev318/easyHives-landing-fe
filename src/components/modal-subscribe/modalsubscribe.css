@@ -1,14 +1,26 @@
-.easyHives__modal {
-    position: fixed;
-    left: 10%;
-    right: 10%;
+@media screen and (max-width: 550px) {
+    .easyHives__modal-subscribe {
+        left: 5%;
+        right: 5%;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .easyHives__modal-subscribe {
+        left: 10%;
+        right: 10%;
+    }
+}
+
+.easyHives__modal-subscribe {
+    position: absolute;
     background: #FFFFFF;
     border: 1.21739px solid #F5C81A;
     box-shadow: 0px 6.08696px 24.3478px rgba(0, 0, 0, 0.4);
     border-radius: 18.2609px;
 }
 
-.easyHives__modal-content-header-close button {
+.easyHives__modal-subscribe-content-header-close button {
     position: absolute;
     right: 0;
     top: 0;
@@ -17,19 +29,24 @@
     border: none;
 }
 
-.easyHives__modal-content-header {
+.easyHives__modal-subscribe-content-header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 1.5rem;
 }
 
-.easyHives__modal-content-header p {
+.easyHives__modal-subscribe-content-header p {
     margin: 0 1rem 1rem 1rem;
 }
 
-.easyHives__modal-content {
+.easyHives__modal-subscribe-content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.easyHives__modal-subscribe-content-body {
+    margin-bottom: 1rem;
 }

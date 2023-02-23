@@ -22,7 +22,7 @@
         display: none;
     }
 
-    .easyhives__firstSection-descr{
+    .easyhives__firstSection-descr {
         max-width: 300px;
         margin-left: 2rem;
     }
@@ -54,6 +54,10 @@
 
     .easyhives__firstSection-descr {
         display: none;
+    }
+
+    .easyhives__firstSection-descr-mobile {
+        text-align: center;
     }
 
     .easyhives__firstSection-descr h2 {
