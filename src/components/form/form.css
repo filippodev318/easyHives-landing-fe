@@ -13,17 +13,6 @@
     color: #f02536;
 }
 
-.easyHives__form-input input,
-select {
-    border: 0.64px solid #3E3E3E;
-    border-radius: 44px;
-    padding: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
 .easyHives__form-input button {
     background: linear-gradient(180deg, #F5C81A 0%, #F5AB1A 100%);
     border-radius: 28px;
