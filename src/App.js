@@ -17,7 +17,7 @@ import ModalSuccess from './components/modal-success/ModalSuccess';
 function App() {
 
   const [showModalSub, setShowModalSub] = useState(false)
-  const [showModalSuccess, setShowModalSuccess] = useState(false)
+  const [showModalSuccess, setShowModalSuccess] = useState(true)
 
   const getUserAgent = () => {
     return isMobile ? (isIOS ? 'iOS' : 'Android') : 'PC'
