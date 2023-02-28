@@ -1,0 +1,12 @@
+const CloseIcon = () => {
+    return (
+        <div>
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="20.9326" y1="7.44899" x2="7.35297" y2="21.0287" stroke="#9A9A9A" stroke-width="1.2803" />
+                <line x1="20.8262" y1="21.0288" x2="7.24649" y2="7.44916" stroke="#9A9A9A" stroke-width="1.2803" />
+            </svg>
+        </div>
+    )
+}
+
+export default CloseIcon

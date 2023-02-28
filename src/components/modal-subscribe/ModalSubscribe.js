@@ -1,3 +1,4 @@
+import CloseIcon from '../closeIcon/CloseIcon';
 import Form from '../form/Form';
 import './modalsubscribe.css';
 
@@ -12,7 +13,7 @@ const ModalSubscribe = ({
         <div className='easyHives__modal-subscribe'>
             <div className='easyHives__modal-subscribe-content'>
                 <div className='easyHives__modal-subscribe-content-header-close'>
-                    <button onClick={handleClose}>X</button>
+                    <button onClick={handleClose}><CloseIcon /></button>
                 </div>
 
                 <div className='easyHives__modal-subscribe-content-header'>
