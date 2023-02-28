@@ -20,11 +20,25 @@
 
     .easyhives__thirdSection-descr h2 {
         font-weight: 700;
-        font-size: 40px;
+        font-size: 50px;
+        line-height: 1;
     }
 
     .easyhives__thirdSection-descr-mobile {
         display: none;
+    }
+
+    .easyhives__thirdSection-descr button {
+        background: linear-gradient(180deg, #F5C81A 0%, #F5AB1A 100%);
+        border-radius: 45px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        border: none;
+        color: #FFFFFF;
+        padding: 0.8rem 2rem;
+        margin-top: 2rem;
     }
 
     .easyhives__thirdSection-descr-mobile h2 {
@@ -43,7 +57,7 @@
 
     .easyhives__thirdSection-descr {
         margin-left: 1rem;
-        max-width: 300px;
+        max-width: 450px;
     }
 }
 
@@ -72,9 +86,28 @@
         display: none;
     }
 
-    .easyhives__thirdSection-descr-mobile h2 {
+    .easyhives__thirdSection-input button {
+        background: linear-gradient(180deg, #F5C81A 0%, #F5AB1A 100%);
+        border-radius: 45px;
+        font-style: normal;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 14px;
+        line-height: 26px;
+        border: none;
+        color: #FFFFFF;
+        padding: 0.6rem 2rem;
+    }
+
+    .easyhives__thirdSection-descr h2 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .easyhives__thirdSection-descr p {
+        text-align: center;
+        max-width: 300px;
     }
 
     .easyhives__firstSection-descr {
@@ -82,21 +115,7 @@
     }
 
     .easyhives__thirdSection-screen img {
-        width: 280px;
+        width: 320px;
         height: 500px;
     }
-}
-
-.easyhives__thirdSection-descr button,
-.easyhives__thirdSection-input button {
-    background: linear-gradient(180deg, #F5C81A 0%, #F5AB1A 100%);
-    border-radius: 45px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 26px;
-    border: none;
-    color: #FFFFFF;
-    padding: 0.5rem 1rem;
-    margin: 1rem;
 }

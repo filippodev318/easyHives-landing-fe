@@ -15,28 +15,27 @@
     font-weight: 700;
     font-size: 46px;
     text-align: center;
-
 }
 
 .easyhives__footer-content p {
     font-size: 16px;
+    text-align: center;
 }
 
 .easyhives__footer-content-input {
     margin: 2rem;
 }
 
-
 .easyhives__footer-content-input button {
     background: linear-gradient(180deg, #FFFFFF 0%, #E4E4E4 100%);
     border-radius: 45px;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     border: none;
     color: #3E3E3E;
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 2rem;
 }
 
 @media screen and (min-width: 550px) {

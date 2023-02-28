@@ -36,6 +36,11 @@
 }
 
 @font-face {
+  font-family: "RecoletaBold";
+  src: url("./assets/font/Recoleta-Bold.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "InterMedium";
   src: url("./assets/font/Inter-Medium.ttf") format("truetype");
 }
@@ -44,6 +49,14 @@
   font-family: "RecoletaMedium";
 }
 
+.font-Recoleta-Bold {
+  font-family: "RecoletaBold";
+}
+
 .font-Inter {
   font-family: 'InterMedium';
+}
+
+.App {
+  background-color: #F8F8F8;
 }

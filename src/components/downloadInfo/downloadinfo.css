@@ -6,11 +6,16 @@
 }
 
 .easyHives__downloadInfo img {
-    width: 14px;
-    height: 18px;
+    width: 10px;
+    height: 14px;
     margin-left: 0.5rem;
 }
 
 .easyHives__downloadInfo span {
     margin-left: 0.5rem;
+}
+
+.easyHives__downloadInfo p, 
+.easyHives__downloadInfo span {
+    font-size: 10px;
 }

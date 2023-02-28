@@ -16,7 +16,7 @@ const ModalSubscribe = ({
                 </div>
 
                 <div className='easyHives__modal-subscribe-content-header'>
-                    <h1 className='text__light'>Resta aggiornato</h1>
+                    <h1 className='text__light font-Recoleta-Bold'>Resta aggiornato</h1>
                     <p>sii tra i primi a provare l'app questa estate!</p>
                 </div>
                 <div className='easyHives__modal-subscribe-content-body'>

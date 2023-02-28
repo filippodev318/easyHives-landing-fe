@@ -2,6 +2,7 @@
     .easyHives__modal-subscribe {
         left: 5%;
         right: 5%;
+        top: 10%;
     }
 }
 
@@ -10,14 +11,23 @@
         left: 10%;
         right: 10%;
     }
+
+    .easyHives__modal-subscribe-content-header h1 {
+        font-size: 36px;
+    }
 }
 
 .easyHives__modal-subscribe {
-    position: absolute;
+    position: fixed;
     background: #FFFFFF;
     border: 1.21739px solid #F5C81A;
     box-shadow: 0px 6.08696px 24.3478px rgba(0, 0, 0, 0.4);
     border-radius: 18.2609px;
+}
+
+.easyHives__modal-subscribe-content-header p {
+    max-width: 190px;
+    text-align: center;
 }
 
 .easyHives__modal-subscribe-content-header-close button {
