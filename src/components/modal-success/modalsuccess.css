@@ -1,3 +1,42 @@
+@media screen and (max-height: 420px) {
+    .easyHives__modal {
+        position: fixed;
+        width: 450px;
+        height: 350px;
+        top: 5%;
+        left: 20%;
+        right: 10%;
+        background: #FFFFFF;
+        border: 1.21739px solid #F5C81A;
+        box-shadow: 0px 6.08696px 24.3478px rgba(0, 0, 0, 0.4);
+        border-radius: 18.2609px;
+    }
+
+    .easyHives__modal-content-body img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (min-height: 420px) {
+    .easyHives__modal {
+        position: fixed;
+        top: 10%;
+        left: 10%;
+        right: 10%;
+        background: #FFFFFF;
+        border: 1.21739px solid #F5C81A;
+        box-shadow: 0px 6.08696px 24.3478px rgba(0, 0, 0, 0.4);
+        border-radius: 18.2609px;
+    }
+
+    .easyHives__modal-content-body img {
+        width: 150px;
+        height: 150px;
+        margin: 1rem;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .easyHives__modal-content-header h1 {
         font-size: 36px;
@@ -32,17 +71,6 @@
     }
 }
 
-.easyHives__modal {
-    position: fixed;
-    top: 10%;
-    left: 15%;
-    right: 15%;
-    background: #FFFFFF;
-    border: 1.21739px solid #F5C81A;
-    box-shadow: 0px 6.08696px 24.3478px rgba(0, 0, 0, 0.4);
-    border-radius: 18.2609px;
-}
-
 .easyHives__modal-content-header {
     display: flex;
     align-items: center;
@@ -65,12 +93,6 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-}
-
-.easyHives__modal-content-body img{
-    width: 170px;
-    height: 170px;
-    margin: 1rem;
 }
 
 .easyHives__modal-content-footer {
