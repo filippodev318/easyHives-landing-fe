@@ -28,6 +28,10 @@
     height: 34px;
 }
 
+.easyhives__navbar-links-os-logo-apple {
+    margin-bottom: 0.3rem;
+}
+
 .easyhives__navbar-links-os-logo-android {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }

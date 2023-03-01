@@ -10,7 +10,7 @@ const Navbar = () => {
                     <h1 className="text__dark font-Recoleta">EasyHives</h1>
                 </div>
                 <div className="easyhives__navbar-links-os-logo">
-                    <img src={apple} alt=""></img>
+                    <img className="easyhives__navbar-links-os-logo-apple" src={apple} alt=""></img>
                     <img className="easyhives__navbar-links-os-logo-android" src={android} alt=""></img>
                 </div>
             </div>
