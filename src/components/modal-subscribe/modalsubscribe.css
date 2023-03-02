@@ -6,14 +6,34 @@
     }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 550px) and (max-width: 934px) {
     .easyHives__modal-subscribe {
-        left: 10%;
-        right: 10%;
+        left: 15%;
+        right: 15%;
+        top: 10%;
     }
 
     .easyHives__modal-subscribe-content-header h1 {
         font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 935px) {
+    .easyHives__modal-subscribe-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .easyHives__modal-subscribe {
+        width: 650px;
+    }
+
+    .easyHives__modal-subscribe-content-header h1 {
+        text-align: center;
+    }
+
+    .easyHives__modal-subscribe-content-header p {
+        text-align: center;
     }
 }
 
